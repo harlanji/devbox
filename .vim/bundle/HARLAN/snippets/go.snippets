@@ -1,0 +1,8 @@
+#l2s
+snippet l2s
+	${1:slice} := make([]${2:type}, ${3:list}.Len())
+	for e, i := $3.Front(), 0;
+		e != nil;
+		e, i = e.Next(), i + 1 {
+		$1[i] = e.Value.($2)
+	}${4}
