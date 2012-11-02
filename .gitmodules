@@ -19,3 +19,6 @@
 [submodule ".vim/gocode"]
 	path = .vim/gocode
 	url = git://github.com/nsf/gocode.git
+[submodule ".vim/bundle/vim-cucumber"]
+	path = .vim/bundle/vim-cucumber
+	url = git://github.com/tpope/vim-cucumber.git
